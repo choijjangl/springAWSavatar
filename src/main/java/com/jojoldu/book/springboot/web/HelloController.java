@@ -23,7 +23,7 @@ public class HelloController {
         // @RequestParam("name") 에서 이름으로 넘긴 파라미터를 메소드 파라미터 name에 저장
 
         //여기까지 23.11.05
-
+        return new HelloResponseDto(name,amount);
     }
 
 }
